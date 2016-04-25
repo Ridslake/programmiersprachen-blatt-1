@@ -68,6 +68,8 @@ TEST_CASE("describe_sumMultiples", "[sumMultiples]")
 //Nachkomma-Anteil	1.10
 float fract(float f)
 {
+	if(f < 0)
+		f = (-1)*f;
 	int a = f;		//Zahl casten
 		return (f-a);	//Zahl ohne Kommastelle von den Zahl mit abziehen
 
@@ -76,6 +78,7 @@ TEST_CASE("describe_fact", "[fact]")
 {
 	REQUIRE(fract(5.65) == Approx (0.65));
 	REQUIRE(fract(5.45) == Approx (0.45));
+	REQUIRE(fract(-3.71) == Approx(0.71));
 }
 
 //Volumen eines Zylinders berechnen	1.11

@@ -1,0 +1,29 @@
+1.4
+Initialisierung:
+int zahl = 10;
+
+Eine Initialisierung bezeichnet das Festlegen eines Wertes beim Anlegen einer Variable.
+
+Zuweisung:
+zahl = 10;
+
+Bei einer Zuweisung wird die Variable nach dem Erstellen mit einem Wert versehen.
+Dies ist unter Umständen nicht möglich, z.B wenn etwas als const. definiert wurde.
+Es sind auch andere Zeichen möglich, wie -=, +=, /=...
+Im Vergleich zu der Initialisierung wird bei der Zuweisung einer bereits deklarierten Variable ein Wert zugewiesen.
+Bei der Initialisierung wird deklariert und gleichzeitig definiert.
+
+1.5
+Deklaration:
+int i;
+class circle;
+Bei einer Deklaration wird eine Variable bennant und dem Compiler bekanntgegeben. Gibt man eine Variable ein
+die vorher nicht deklariert wurde gibt es einen Fehler. Auch wenn man zwei Variablen mit dem gleichen Namen deklartiert,
+gibt es einen Fehler.
+Außerdem wird der Variablentyp bestimmt. Der Ort an dem eine Variable deklariert wird, bestimmt auch ihren Gültigkeitsbereich.
+
+
+Definition:
+int j = 10;
+radius = 4;
+Eine vorher deklarierte Variable wird in einer Definition spezifiziert. Einer Deklaration kann nur einmal definiert werden.
